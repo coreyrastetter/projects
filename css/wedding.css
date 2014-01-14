@@ -32,16 +32,20 @@ abbr,acronym { border:0;
 /* BEGIN COREY CODE */
 body
 {
-  font-size: 12pt;
+  background-image: url(../images/repeat1.png);
+  background-repeat: repeat;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10pt;
 }
 
+/*
 .bodybg
 {
   background-image: url(../images/repeat1.png);
   background-repeat: repeat;
   font-family: Tahoma, Geneva, sans-serif;
   font-size: 10pt;
-}
+}*/
 
 #dPage
 {

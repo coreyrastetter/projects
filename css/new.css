@@ -1,0 +1,78 @@
+body
+{
+  background-image: url(../images/repeat1.png);
+  background-repeat: repeat;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+#divContainer {
+	width: 900px;
+	min-height: 240px;
+	border: 1px solid red;
+	background-color: #ffffff;
+}
+
+#divHeader {
+	width: 100%;
+	min-height: 80px;
+	clear: both;
+	border: 1px solid black;
+	background-color: #ffff00;
+	text-align: center;
+	margin-top: 14px;
+}
+
+#divBody {
+	width: 900px;
+	min-height: 240px;
+	border: 0px solid blue;
+	background-color: #000;
+}
+
+#divLeftNav {
+	width: 200px;
+	min-height: 240px;
+	float: left;
+	border: 1px solid green;
+	background-color: #fff;
+}
+
+#divContent {
+	width: 680px;
+	min-height: 240px;
+	float: left;
+	border: 1px solid red;
+	background-color: #fff;
+}
+
+#divFooter {
+	width: 900px;
+	min-height: 40px;
+	clear: both;
+	border: 1px solid red;
+	background-color: purple;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+
+
+/* RANDOM STYLES */
+.heart
+{
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.names
+{
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.footertext {
+	vertical-align: bottom;
+	border: 1px solid yellow;
+}
