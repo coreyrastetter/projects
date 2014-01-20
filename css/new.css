@@ -115,6 +115,10 @@ a
 	font-weight: bold;
 }
 
+.linky {
+	text-decoration: underline;
+}
+
 .names
 {
   font-size: 16pt;
