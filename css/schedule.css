@@ -1,0 +1,83 @@
+body
+{
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10pt;
+}
+
+#container {
+	width: 900px;
+	min-height: 240px;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+	border-radius: 25px;
+	margin: 12px auto 0 auto;
+}
+
+.header {
+	width: 880px;
+	border: 0px solid red;
+	text-align: center;
+	border-radius: 25px;
+	margin: 12px auto;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.eventday {
+	width: 800px;
+	border: 0px solid blue;
+	text-align: left;
+	border-radius: 25px;
+	margin: 10px auto;
+	padding: 8px;
+}
+
+.list {
+	list-style-type: circle;
+	margin-top: 6px;
+	margin-left: 16px;
+}
+
+.list li {
+	padding-left: 6px;
+	font-size: 10pt;
+}
+
+.list li.b {
+	margin-left: 22px;
+	padding-left: 6px;
+	font-size: 10pt;
+}
+
+.date {
+	font-size: 11pt;
+	font-weight: bold;
+}
+
+.aficianado {
+	text-align: center;
+}
+
+.myside {
+	width: 400px;
+	min-height: 200px;
+	float: left;
+	border: 0px solid blue;
+}
+
+.herside {
+	width: 400px;
+	min-height: 200px;
+	float: left;
+	clear: right;
+	border: 0px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
