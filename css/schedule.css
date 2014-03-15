@@ -32,6 +32,12 @@ body
 	padding: 8px;
 }
 
+.legendborder {
+	border: 1px solid #000000;
+	border-radius: 25px;
+	min-height: 220px;
+}
+
 .list {
 	list-style-type: circle;
 	margin-top: 6px;
