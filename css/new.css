@@ -54,10 +54,19 @@ body
 	float: left;
 	border: 0px solid blue;
 	background-color: #fff;
+	margin: 12px auto;
 }
 
 .contentsubtop {
 	margin-top: 12px;
+}
+
+.contentsubnav {
+	width: 33%;
+	min-height: 25px;
+	float: left;
+	text-align: center;
+	border: 0px solid red;
 }
 
 .contentsubtabs {
@@ -114,6 +123,14 @@ a
 {
   text-decoration: none;
   color: #000000;
+}
+
+.subvis {
+	display: block;
+}
+
+.subhid {
+	display: none;
 }
 
 /* RANDOM STYLES */
@@ -240,6 +257,12 @@ a
 	cursor: pointer;
 }
 
+.sublink:hover {
+	cursor: pointer;
+	border-radius: 12px;
+	background-color: #bbbbbb;
+}
+
 .selected {
 	color: #000000;
 }
@@ -251,6 +274,11 @@ a
 
 .name {
 	font-family: Papyrus, fantasy;
+	font-weight: bold;
+}
+
+.contentsubname {
+	font-size: 14pt;
 	font-weight: bold;
 }
 
