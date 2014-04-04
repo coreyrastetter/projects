@@ -1,0 +1,57 @@
+<html>
+<head><title>total test</title>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+
+<style type"text/css">
+.bdr {
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.grey {
+    color: #bbb;
+}
+
+</style>
+
+<script type="text/javascript">
+$(function() {
+	var currentVis;
+
+    $('#spleft').click(function() {
+            currentVis = $('.show').attr('id');
+            $('#' + currentVis).prev().attr('class', 'show');
+             $('#' + currentVis).attr('class', 'hidden');
+    });
+    
+    $('#spright').click(function() {
+    currentVis = $('.show').attr('id');
+       $('#' + currentVis).next().attr('class', 'show');
+        $('#' + currentVis).attr('class', 'hidden');       
+    });
+
+
+});
+</script>
+
+</head>
+<body>
+<span id="spleft">left</span>&nbsp;<span id="spright">right</span>
+<div id="container">
+<div id="d1" class="show">this</div>
+<div id="d2" class="hidden">
+    <div id="crap" class="hidden">crap</div>is</div>
+<div id="d3" class="hidden">sparta</div>
+</div>
+
+</body>
+</html>

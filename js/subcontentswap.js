@@ -1,4 +1,23 @@
-$(document).ready(
+$(function() {
+	var currentVis;
+
+    $('#divSubNavLeft').click(function() {
+            currentVis = $('.show').attr('id');
+            $('#' + currentVis).prev().attr('class', 'show');
+             $('#' + currentVis).attr('class', 'hidden');
+    });
+    
+    $('#divSubNavRight').click(function() {
+    currentVis = $('.show').attr('id');
+       $('#' + currentVis).next().attr('class', 'show');
+        $('#' + currentVis).attr('class', 'hidden');       
+    });
+
+
+});
+
+
+/*$(document).ready(
 	function() {
 		$(".sublink").click(function() {
 			//$("#divProducts").addClass("hidden");
@@ -48,4 +67,4 @@ $(document).ready(
 			$(this).addClass("subselected");
 			$(".sublink.subselected").not(this).removeClass("subselected"); */
 		});
-});
+}); */
