@@ -125,11 +125,11 @@ a
   color: #000000;
 }
 
-.subvis {
+.show {
 	display: block;
 }
 
-.subhid {
+.hidden {
 	display: none;
 }
 
