@@ -1,23 +1,27 @@
 $(function() {
-	var currentVis;
-
-    $('#divSubNavLeft').click(function() {
-            currentVis = $('.show').attr('id');
-            $('#' + currentVis).prev().attr('class', 'show');
-             $('#' + currentVis).attr('class', 'hidden');
+    $('#spRight').click(function() {
+		var $n =  $('#subContainer');
+		var nxt = $n[0];
+		var $thenext = $('#subContainer').next();
+		alert($n[0].id);
+		alert(nxt.id);
+		
+		getElementById
     });
-    
-    $('#divSubNavRight').click(function() {
-    currentVis = $('.show').attr('id');
-       $('#' + currentVis).next().attr('class', 'show');
-        $('#' + currentVis).attr('class', 'hidden');       
-    });
-
-
 });
 
 
-/*$(document).ready(
+/*
+
+var $theList = $('#theList');   // jQuery collection
+var theList = $theList[0];      // DOM node
+var theList = $theList.get(0);  // also a DOM node
+Attribute and property access depends on whether you have a jQuery collection or not:
+
+var id = $theList.attr('id');   // jQuery function
+var id = theList.id;            // native property
+
+$(document).ready(
 	function() {
 		$(".sublink").click(function() {
 			//$("#divProducts").addClass("hidden");
@@ -65,6 +69,6 @@ $(function() {
 			$("#" + $d).fadeToggle();
 			$(".hidden").not("#" + $d).hide();
 			$(this).addClass("subselected");
-			$(".sublink.subselected").not(this).removeClass("subselected"); */
+			$(".sublink.subselected").not(this).removeClass("subselected"); 
 		});
 }); */
