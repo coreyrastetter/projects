@@ -1,12 +1,14 @@
 $(function() {
-    $('#spRight').click(function() {
-		var $n =  $('#subContainer');
-		var nxt = $n[0];
-		var $thenext = $('#subContainer').next();
+    $('#divSubNavRight').click(function() {
+		var $n =  $('#divSubNavRight');
+		var n = $n[0];
+		var $currVis = $('#divSubNavRight').next('.show');
 		alert($n[0].id);
-		alert(nxt.id);
+		alert($currVis[0].id);
 		
-		getElementById
+		var $nxtToShow = $currVis.next('.hidden');
+		alert($nxtToShow[0].id);
+		
     });
 });
 
