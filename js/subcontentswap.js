@@ -1,14 +1,32 @@
 $(function() {
     $('#divSubNavRight').click(function() {
-		var $n =  $('#divSubNavRight');
-		var n = $n[0];
-		var $currVis = $('#divSubNavRight').next('.show');
-		alert($n[0].id);
-		alert($currVis[0].id);
+		var $currVis = $('#divSubContainer').children('.show');
+		var $nextHidden = $currVis.next();
+		//var something = $currVis[0].id;
+		//alert($currVis[0].id);
+		//alert($nextHidden[0].id);
 		
-		var $nxtToShow = $currVis.next('.hidden');
-		alert($nxtToShow[0].id);
+		if ($nextHidden[0])
+		{
+			//alert($currVis.attr('class'));
+			$currVis.removeClass('show').addClass('hidden');
+			$nextHidden.removeClass('hidden').addClass('show');
+		}
+    });
+
+    $('#divSubNavLeft').click(function() {
+		var $currVis = $('#divSubContainer').children('.show');
+		var $prevHidden = $currVis.prev();
+		//var something = $currVis[0].id;
+		//alert($currVis[0].id);
+		//alert($nextHidden[0].id);
 		
+		if ($prevHidden[0])
+		{
+			//alert($currVis.attr('class'));
+			$currVis.removeClass('show').addClass('hidden');
+			$prevHidden.removeClass('hidden').addClass('show');
+		}
     });
 });
 

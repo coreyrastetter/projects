@@ -6,7 +6,12 @@ body
   font-size: 10pt;
 }
 
-span { 
+.subcontent {
+	clear: both;
+	}
+	
+.subNav {
+	float: left;
 	padding-left: 40px;
 	}
 
