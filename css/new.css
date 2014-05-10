@@ -142,6 +142,36 @@ a
 	display: none;
 }
 
+.targblank {
+	target: '_blank';
+}
+
+#divFavs {
+	border: 0px solid red;
+	width: 400px;
+	min-height: 100px;
+	clear: both;
+}
+
+#divListLeft {
+	border: 0px solid purple;
+	width: 190px;
+	float: left;
+}
+
+#divListRight {
+	border: 0px solid blue;
+	width: 190px;
+	float: right;
+}
+
+#divListLeft ul li {
+	clear: right;
+}
+
+
+
+
 /* RANDOM STYLES */
 .food {
 	clear: left;
