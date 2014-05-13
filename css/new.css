@@ -142,10 +142,6 @@ a
 	display: none;
 }
 
-.targblank {
-	target: '_blank';
-}
-
 #divFavs {
 	border: 0px solid red;
 	width: 400px;
@@ -167,10 +163,16 @@ a
 
 #divListLeft ul li {
 	clear: right;
+	font-size: 10pt;
 }
 
+#divListRight ul li a {
+	font-size: 10pt;
+}
 
-
+#divListRight ul li a:hover {
+	text-decoration: underline;
+}
 
 /* RANDOM STYLES */
 .food {
@@ -202,7 +204,7 @@ a
 	line-height: 1.6;
 }
 
-.schedule {
+.	 {
 	width: 594px;
 	float: left;
 	margin-right: 28px;
