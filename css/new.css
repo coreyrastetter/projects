@@ -2,7 +2,7 @@ body
 {
   background-image: url(../images/repeat1.png);
   background-repeat: repeat;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
   font-size: 10pt;
 }
 
@@ -314,7 +314,7 @@ a
 }
 
 .name {
-	font-family: Papyrus, fantasy;
+	font-family: Tahoma, Verdana, Geneva, sans-serif;
 	font-weight: bold;
 }
 
